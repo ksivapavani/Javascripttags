@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Document</title>
+</head>
+<body>
+  <form>
+    <input>
+    <input>
+    <input>
+    <input>
+    <input>
+  </form>  
+  <form>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <input type="text">
+  </form>
+  <script>
+    var a=document.forms
+    console.log(a)
+    a[0].elements[0].setAttribute("type","checkbox")
+    a[0].elements[1].setAttribute("type","checkbox")
+    a[1].elements[1].setAttribute("type","radio")
+  </script>
+</body>
+</html>

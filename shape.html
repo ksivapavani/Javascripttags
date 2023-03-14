@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Document</title>
+</head>
+<body>
+    <script>
+        function triangle(b,h)
+        {
+            var t=0.5*b*h;
+            return t;
+        }
+        var total=triangle(5,6)
+        document.write("total area of triangle"+total+"<br>")
+        function circle(r)
+        {
+            var t=3.14*r*r;
+            return t;
+        }
+        var total1=circle(7)
+        document.write("total area of circle"+total1+"<br>")
+        function square(s)
+        {
+            var t=s*s;
+            return t;
+        }
+        var total2=square(4)
+        document.write("total area of triangle"+total2+"<br>")
+        function rectangle(b,h)
+        {
+            var t=b*h;
+            return t;
+        }
+        var total3=rectangle(4,8)
+        document.write("total area of circle"+total3+"<br>")
+        document.write("total addition of triangle and circle and square and rectangle<br>"+(total+total1+total2+total3))
+
+    </script>
+</body>
+</html>

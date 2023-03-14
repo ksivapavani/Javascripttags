@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Document</title>
+</head>
+<body>
+  <form id="form1">
+    <input type="text" >
+    <br>
+    <br>
+    <input type="text" >
+    <br>
+    <br>
+    <input type="text" >
+    <br>
+    <br>
+    <input type="text" >
+    <br>
+    <br>
+    <label>gender</label>
+    <input type="checkbox">
+    <input type="checkbox">
+   <input type="checkbox">
+   <br>
+    <br><input type="submit">
+  </form>  
+  <script>
+    var a=document.forms
+    console.log(a)
+    a[0].elements[0].setAttribute("placeholder","firstname")
+    a[0].elements[0].document.getElementById("a").style.color="green"
+    a[0].elements[1].setAttribute("placeholder","lastname")
+    a[0].elements[1].document.getElementById("a").style.color="green"
+    a[0].elements[2].setAttribute("type","text")
+    a[0].elements[3].setAttribute("type","email")
+    a[0].elements[4].setAttribute("type","checkbox")
+    a[0].elements[5].setAttribute("type","checkbox")
+    a[0].elements[6].setAttribute("type","checkbox")
+    a[0].elements[7].setAttribute("type","submit")
+    </script>
+</body>
+</html>

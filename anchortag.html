@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body>
+    <a name="a"></a>
+    <a name="b"></a>
+    <a name="c"></a>
+    <a name="d"></a>
+    <a name="e"></a>
+    <script>
+        var anchor=document.anchors
+        console.log(anchor)
+        anchor[0].setAttribute("href","https://www.facebook.com")
+        anchor[0].innerHTML="facebook"
+        anchor[0].style.color="red"
+        anchor[0].style.textDecoration="none"
+    </script>
+</body>
+</html>

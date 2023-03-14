@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body id="a" onload="party()">
+    <script>
+        function party()
+        {
+        var col=["red","green","yellow","blue","lightgreen","pink","skyblue"]
+        var collength=col.length
+        var radomnumber=Math.random()*collength;
+        var justNumber=Math.floor(radomnumber)
+        document.getElementById("a").style.backgroundColor=col[justNumber]
+        var refreshthepage=setTimeout(function(){party()},1000)
+    }
+    </script>
+</body>
+</html>

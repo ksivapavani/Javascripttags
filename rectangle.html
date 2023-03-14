@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+</head>
+<body>
+ <script>
+    function rectangle()
+    {
+        var b=10
+        var h=10
+        
+        document.write((b*h)-areaofcir()+"<br>")
+        document.write((b*h)-(areaoftriangle()-areaofcir()))     
+       }
+    function areaoftriangle()
+    {
+        var a=0.5
+        var b1=5
+        var h1=8
+        document.write(a*b1*h1+"<br>")
+    }
+    function areaofcir()
+    {
+        var pi=3.14
+        var r=2.5
+        document.write(pi*r*r+"<br>")
+    }
+  rectangle()
+  areaoftriangle()
+  areaofcir()
+ </script>   
+</body>
+</html>
